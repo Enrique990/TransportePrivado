@@ -9,7 +9,6 @@ public class Empresa {
         this.viajes = new ArrayList<>();
     }
 
-
     public void asignarViaje(Cliente cliente, Vehiculo vehiculo, String origen, String destino, float costo) {
         Viaje nuevoViaje = new Viaje(origen, destino, cliente, vehiculo, costo);
         viajes.add(nuevoViaje);

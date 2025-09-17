@@ -2,13 +2,13 @@ package Models;
 
 public class Cliente {
     private String nombre;
-    private int telefono;
+    private String telefono;
     private String email;
 
     public Cliente() {
     }
 
-    public Cliente(String nombre, int telefono, String email) {
+    public Cliente(String nombre, String telefono, String email) {
         this.nombre = nombre;
         this.telefono = telefono;
         this.email = email;
@@ -22,11 +22,11 @@ public class Cliente {
         this.nombre = nombre;
     }
 
-    public int getTelefono() {
+    public String getTelefono() {
         return telefono;
     }
 
-    public void setTelefono(int telefono) {
+    public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
 
